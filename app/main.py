@@ -27,5 +27,5 @@ async def home(request: Request):
 
 @app.get("/page/{page_name}", response_class=HTMLResponse)
 async def show_page(request: Request, page_name: str):
-    data = openfile(page_name+".md")
+    data = openfile(page_name + ".md")
     return templates.TemplateResponse("page.html", {"request": request, "data": data})
