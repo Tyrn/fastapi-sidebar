@@ -66,10 +66,7 @@ pathspec = ">=0.9.0,<1"
 platformdirs = ">=2"
 regex = ">=2020.1.8"
 tomli = ">=0.2.6,<2.0.0"
-typing-extensions = [
-    {version = ">=3.10.0.0", markers = "python_version < \"3.10\""},
-    {version = "!=3.10.0.1", markers = "python_version >= \"3.10\""},
-]
+typing-extensions = ">=3.10.0.0"
 
 [package.extras]
 colorama = ["colorama (>=0.4.3)"]
@@ -523,8 +520,8 @@ testing = ["coverage (>=4)", "coverage-enable-subprocess (>=1)", "flaky (>=3)", 
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.9.7"
-content-hash = "aa63db4f96d2b8b9ac354d717c9dae8e42ba64edd3c5bbb8b41e34d623abdff6"
+python-versions = "3.9.7"
+content-hash = "6f2d6bd7d8133499e9ba15ea6afa1a916464dab4d1738eaa5af96c06dc1b658c"
 
 [metadata.files]
 aiofiles = [
