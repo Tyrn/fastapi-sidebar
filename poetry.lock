@@ -253,6 +253,21 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "netscape-bookmarks-file-parser"
+version = "1.1"
+description = "Parser and creator for the Netscape Bookmarks file format"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+develop = false
+
+[package.source]
+type = "git"
+url = "https://github.com/FlyingWolFox/Netscape-Bookmarks-File-Parser.git"
+reference = "master"
+resolved_reference = "aff326d6994a181d1ef2067cfa75425621afcd6a"
+
+[[package]]
 name = "nodeenv"
 version = "1.6.0"
 description = "Node.js virtual environment builder"
@@ -521,7 +536,7 @@ testing = ["coverage (>=4)", "coverage-enable-subprocess (>=1)", "flaky (>=3)", 
 [metadata]
 lock-version = "1.1"
 python-versions = "3.9.7"
-content-hash = "6f2d6bd7d8133499e9ba15ea6afa1a916464dab4d1738eaa5af96c06dc1b658c"
+content-hash = "ce6d261eb4187b7b87041e67ff26da4781ea5677c46131fd524c5e010b8d26cf"
 
 [metadata.files]
 aiofiles = [
@@ -689,6 +704,7 @@ mypy-extensions = [
     {file = "mypy_extensions-0.4.3-py2.py3-none-any.whl", hash = "sha256:090fedd75945a69ae91ce1303b5824f428daf5a028d2f6ab8a299250a846f15d"},
     {file = "mypy_extensions-0.4.3.tar.gz", hash = "sha256:2d82818f5bb3e369420cb3c4060a7970edba416647068eb4c5343488a6c604a8"},
 ]
+netscape-bookmarks-file-parser = []
 nodeenv = [
     {file = "nodeenv-1.6.0-py2.py3-none-any.whl", hash = "sha256:621e6b7076565ddcacd2db0294c0381e01fd28945ab36bcf00f41c5daf63bef7"},
     {file = "nodeenv-1.6.0.tar.gz", hash = "sha256:3ef13ff90291ba2a4a7a4ff9a979b63ffdd00a464dbe04acf0ea6471517a4c2b"},
