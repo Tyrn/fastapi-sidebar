@@ -16,7 +16,7 @@ Doctype: <!DOCTYPE NETSCAPE-Bookmark-file-1>
 Install and run
 ===============
 
-- The project makes use of the `nodeenv <https://pypi.org/project/nodeenv/>`__
+- If the project makes use of the `nodeenv <https://pypi.org/project/nodeenv/>`__
   package
 
 ::
