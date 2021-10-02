@@ -1,5 +1,8 @@
 import os.path
 import markdown
+import pout
+from NetscapeBookmarksFileParser import *
+from NetscapeBookmarksFileParser import parser
 
 
 def openfile(filename):
@@ -10,3 +13,12 @@ def openfile(filename):
     html = markdown.markdown(text)
     data = {"text": html}
     return data
+
+
+def netsc_parse(file_name: str, log_name=""):
+    with open(file_name) as file:
+        ks = NetscapeBookmarksFile(file).parse()
+        if log_name:
+            with pout.tofile(log_name):
+                pout.v(ks)
+        return ks

@@ -319,6 +319,14 @@ dev = ["pre-commit", "tox"]
 testing = ["pytest", "pytest-benchmark"]
 
 [[package]]
+name = "pout"
+version = "0.8.16"
+description = "Prints out python variables in an easy to read way, handy for debugging"
+category = "dev"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "pre-commit"
 version = "2.15.0"
 description = "A framework for managing and maintaining multi-language pre-commit hooks."
@@ -536,7 +544,7 @@ testing = ["coverage (>=4)", "coverage-enable-subprocess (>=1)", "flaky (>=3)", 
 [metadata]
 lock-version = "1.1"
 python-versions = "3.9.7"
-content-hash = "ce6d261eb4187b7b87041e67ff26da4781ea5677c46131fd524c5e010b8d26cf"
+content-hash = "e42985edebb4adcab688e8e1b40996effd613cf7cc6874f7791bf933ae152e9d"
 
 [metadata.files]
 aiofiles = [
@@ -724,6 +732,9 @@ platformdirs = [
 pluggy = [
     {file = "pluggy-1.0.0-py2.py3-none-any.whl", hash = "sha256:74134bbf457f031a36d68416e1509f34bd5ccc019f0bcc952c7b909d06b37bd3"},
     {file = "pluggy-1.0.0.tar.gz", hash = "sha256:4224373bacce55f955a878bf9cfa763c1e360858e330072059e10bad68531159"},
+]
+pout = [
+    {file = "pout-0.8.16.tar.gz", hash = "sha256:7916b2f7fbfe44761c6bfad281aaa65336eecce62a319772da0e757b15c45079"},
 ]
 pre-commit = [
     {file = "pre_commit-2.15.0-py2.py3-none-any.whl", hash = "sha256:a4ed01000afcb484d9eb8d504272e642c4c4099bbad3a6b27e519bd6a3e928a6"},
